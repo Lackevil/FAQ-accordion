@@ -1,6 +1,6 @@
 # Frontend Mentor - FAQ accordion solution
 
-This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution]()
-- Live Site URL: [live]()
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/faq-accordion-zo6fEdz2yv)
+- Live Site URL: [live](https://lackevil.github.io/FAQ-accordion/)
 
 ### Built with
 
