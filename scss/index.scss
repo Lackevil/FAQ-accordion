@@ -1,0 +1,112 @@
+/* -------- Fonts -------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,700;1,700&display=swap");
+
+/* -------- Fonts -------- */
+
+/* -------- Reset -------- */
+
+@import "reset";
+
+/* -------- Reset -------- */
+
+/* -------- Variables -------- */
+
+@import "variables";
+
+/* -------- Variables -------- */
+
+/* -------- General -------- */
+
+body {
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  font-family: "Work Sans";
+  color: $purple-950;
+  background: url(../assets/images/background-pattern-desktop.svg) top center /
+    100% no-repeat;
+  background-color: $purple-100;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------- General -------- */
+
+/* -------- Accordion -------- */
+
+.accordion {
+  max-width: 55rem;
+  margin: 0 auto;
+  background-color: $white;
+  border-radius: 1.5rem;
+  padding: 4rem 3.5rem 2.5rem;
+}
+
+.title {
+  font-size: clamp(3.6rem, 5vw, 5rem);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: clamp(3rem, 5vw, 4rem);
+}
+
+// .accordion__content {
+// }
+
+// .accordion__item {
+// }
+
+.accordion__item:not(:last-child) {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eaeaea8e;
+}
+
+.accordion__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  gap: 3rem;
+}
+
+.accordion__title {
+  font-weight: 600;
+}
+
+.accordion__button {
+  background: none;
+  transition: 0.2s ease-in-out all;
+}
+
+.accordion__button:hover {
+  opacity: 0.8;
+}
+
+.accordion__text {
+  color: $purple-600;
+  line-height: 1.4;
+  display: none;
+  margin-bottom: 2rem;
+}
+
+.accordion__text {
+  display: none;
+}
+
+.accordion__item.active .accordion__text {
+  display: block;
+}
+
+.accordion__item.active .accordion__button-icon {
+  content: url("../assets/images/icon-minus.svg");
+}
+
+/* -------- Accordion -------- */
